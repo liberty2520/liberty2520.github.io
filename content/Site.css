@@ -1,0 +1,86 @@
+﻿body {
+    background-color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+   
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 0%;
+   
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:transparent;
+    color:black;
+    text-align: center;
+}
+.jumbotron{
+    border-radius: 15px;
+   background-color:transparent;
+    text-align: center;
+    color:white;
+  
+}
+.jumbotron h1{
+    font-size: 90px;
+    color:rgb(224, 8, 8);
+}
+#circular_home
+{
+    background-color: rgb(211, 13, 13);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.text-primary{
+    color: white;
+    font-size: 20px;
+}
+#circular_travel {
+    background-color: rgb(143, 143, 6);
+    color: white;
+    height:100px;
+    width: 100px;
+}
+#circular_business {
+    background-color:green;
+    color: white;
+    height:100px;
+    width: 100px;
+}
+#circular_health {
+    background-color:blue;
+    color: white;
+    height:100px;
+    width: 100px;
+    
+}
+#Home_body{
+    background-color: blue;
+}
